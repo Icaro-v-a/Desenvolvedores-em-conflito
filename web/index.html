@@ -23,6 +23,12 @@
       <section class="painel">
         <div class="painel-cabecalho"><div><h2>Solicitações</h2><p>Consulte a fila de atendimento.</p></div><span class="contador" id="contador">— chamados</span></div>
         <div class="controles" id="controles">
+          <label>Ordenar por
+            <select id="ordem">
+              <option value="">Código do chamado</option>
+              <option value="prioridade">Maior prioridade primeiro</option>
+            </select>
+          </label>
           <span class="ajuda">Equipe de suporte · Atualização sob demanda</span>
           <button id="atualizar" type="button">Atualizar lista</button>
         </div>
