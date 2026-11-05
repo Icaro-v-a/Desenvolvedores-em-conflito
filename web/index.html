@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PULSO | Central de chamados</title>
+  <link rel="stylesheet" href="/estilos.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="layout">
+    <aside class="lateral">
+      <div class="marca"><span class="marca-icone">P</span><div><strong>PULSO</strong><small>central de serviços</small></div></div>
+      <p class="lateral-label">PAINEL</p>
+      <a class="menu ativo" href="/">▦ &nbsp; Chamados</a>
+      <div class="lateral-rodape">Ambiente de treinamento<br>Equipe de desenvolvimento</div>
+    </aside>
+    <main class="principal">
+      <div class="topo"><div><p class="eyebrow">SUPORTE INTERNO</p><h1>Painel de chamados</h1><p class="subtitulo">Acompanhe solicitações dos setores da empresa.</p></div><span class="tag-ambiente">Ambiente local</span></div>
+      <section id="resumo" class="resumo" aria-label="Resumo de chamados">
+        <div class="dado"><small>Central de serviços</small><strong>Chamados internos</strong><span>Visão geral das solicitações</span></div>
+      </section>
+      <section class="painel">
+        <div class="painel-cabecalho"><div><h2>Solicitações</h2><p>Consulte a fila de atendimento.</p></div><span class="contador" id="contador">— chamados</span></div>
+        <div class="controles" id="controles">
+          <span class="ajuda">Equipe de suporte · Atualização sob demanda</span>
+          <button id="atualizar" type="button">Atualizar lista</button>
+        </div>
+        <div class="tabela-wrapper"><table><thead><tr><th>Chamado</th><th>Setor</th><th>Prioridade</th><th>Situação</th></tr></thead><tbody id="tabela"><tr><td colspan="4">Carregando chamados...</td></tr></tbody></table></div>
+        <div id="feedback" class="feedback" role="status"></div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
