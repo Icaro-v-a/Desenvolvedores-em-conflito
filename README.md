@@ -4,7 +4,6 @@
 
 **Disciplina:** Desenvolvimento de Sistemas  
 **Modalidade:** desafio prático em equipes de 2 a 4 integrantes  
-**Pontuação proposta:** 0,25 ponto na composição da disciplina
 
 Este é o documento completo da atividade: inclui o contexto, as instruções de execução, os desafios e os critérios de avaliação.
 
@@ -114,17 +113,16 @@ Verifiquem pelo menos os seguintes casos:
 
 **Não é necessário apresentar o trabalho à turma.** Cada equipe deve conseguir demonstrar o funcionamento caso o professor solicite uma verificação durante a aula.
 
-## Critérios de avaliação (0,25 ponto)
+## Critérios de avaliação
 
-| Critério | Valor |
-|---|---:|
-| Identificação das branches e análise das alterações | 0,05 |
-| Integração correta das três funcionalidades, sem regressões | 0,10 |
-| Implementação do filtro por setor e sua combinação com os demais recursos | 0,08 |
-| Histórico de commits e registro breve do trabalho em equipe | 0,02 |
-| **Total** | **0,25** |
+O trabalho será avaliado considerando:
 
-A execução correta e a compreensão do código são mais importantes do que o número de comandos utilizados.
+- **Análise do histórico:** identificação das branches, dos commits e das alterações realizadas por cada desenvolvedor.
+- **Integração das funcionalidades:** preservação dos filtros por status, da ordenação e dos indicadores, sem comprometer o funcionamento do painel.
+- **Nova funcionalidade:** implementação do filtro por setor em uma branch própria, com integração à `main` e funcionamento conjunto com os outros recursos.
+- **Organização do trabalho:** histórico Git compreensível e registro breve dos conflitos, das soluções e da participação da equipe.
+
+A avaliação considera o funcionamento da aplicação e a compreensão das alterações realizadas, não apenas a execução de comandos Git.
 
 ## Referência de comandos Git
 
