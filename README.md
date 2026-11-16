@@ -55,14 +55,14 @@ Se o material tiver sido fornecido como ZIP, extraia preservando a pasta oculta 
 | `web/app.js` | Requisições e atualização dinâmica da interface |
 | `web/estilos.css` | Aparência visual |
 
-## Desafio 1 — Investigar o histórico
+## Desafio 1: Investigar o histórico
 
 1. Clone o repositório disponibilizado pelo professor. Se recebeu o projeto por ZIP, extraia preservando a pasta `.git`.
 2. Abra o painel pela branch `main` e observe como ele funciona.
 3. Identifique as branches existentes e analise os commits e as diferenças entre elas.
 4. Abra cada branch separadamente e descubra quais arquivos e funcionalidades foram modificados. Registre brevemente o que cada desenvolvedor entregou.
 
-## Desafio 2 — Integrar o trabalho da equipe
+## Desafio 2: Integrar o trabalho da equipe
 
 Na branch `main`, integre **as três funcionalidades** existentes. Use merges que preservem o histórico das branches, identifique os conflitos e resolva-os analisando o funcionamento do projeto.
 
@@ -77,7 +77,7 @@ Ao final, o painel deve:
 
 Ao resolver conflitos, não remova recursos apenas para fazer o projeto compilar. Apagar uma das duas implementações não é uma solução aceitável.
 
-## Desafio 3 — Desenvolver uma melhoria nova usando Git
+## Desafio 3: Desenvolver uma melhoria nova usando Git
 
 O cliente solicitou um **filtro por setor** (`Administrativo`, `Infraestrutura` e `Sistemas`). Essa funcionalidade ainda **não existe** nas branches recebidas.
 
@@ -90,7 +90,7 @@ O cliente solicitou um **filtro por setor** (`Administrativo`, `Infraestrutura` 
 
 A opção “Todos os setores” deve mostrar todos os setores, respeitando os demais filtros selecionados.
 
-## Desafio 4 — Comprovar que a integração deu certo
+## Desafio 4: Comprovar que a integração deu certo
 
 Verifiquem pelo menos os seguintes casos:
 
