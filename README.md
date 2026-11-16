@@ -1,4 +1,4 @@
-# PULSO — Desenvolvedores em Conflito
+# PULSO: Desenvolvedores em Conflito
 
 **Missão:** colocar o painel PULSO em produção sem perder funcionalidades.
 
